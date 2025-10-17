@@ -14,7 +14,7 @@ const ResponsiveStudentInfo = ({ student }) => {
   }, []);
 
   if (isMobile) {
-    // Mobile layout
+
     return (
       <div style={{ padding: '10px', border: '1px solid #ccc', borderRadius: '8px', maxWidth: '320px', margin: 'auto' }}>
         <img
@@ -29,7 +29,7 @@ const ResponsiveStudentInfo = ({ student }) => {
     );
   }
 
-  // Desktop layout
+  
   return (
     <div style={{ display: 'flex', padding: '20px', border: '1px solid #ccc', borderRadius: '8px', maxWidth: '600px', margin: 'auto' }}>
       <img
@@ -48,3 +48,4 @@ const ResponsiveStudentInfo = ({ student }) => {
 };
 
 export default ResponsiveStudentInfo;
+
